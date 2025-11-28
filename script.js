@@ -66,3 +66,12 @@ const concluirItem  = (index) =>{
     mostrarItem()
 }
 
+const recarregarItens = ()=>{
+    const tarefasLocal = localStorage.getItem("listaItem");
+    if(tarefasLocal){
+        ListaDeTarefas = JSON.parse(tarefasLocal)
+    }
+
+    mostrarItem();
+}
+recarregarItens()
