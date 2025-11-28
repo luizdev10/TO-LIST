@@ -70,3 +70,8 @@
     justify-content: center;
     /*opacity: 0;*/
 }
+
+.done{
+    text-decoration: line-through;
+    background-color: rgb(105, 236, 112);
+}
