@@ -10,7 +10,7 @@
     --cor-pastel-azul: #457b9d;
     --cor-pastel-creme: #f1faee;
     --cor-pastel-salmao: #e63946;
-    --cor-texto-escuro: #2a466d;
+    --cor-texto-escuro: #526b8d;
 }
 
 #area-list {
@@ -38,17 +38,16 @@
     background-color: var(--cor-pastel-creme);
 }
 
-.area-item {
-    margin-top: 10px;
+#area-item {
     width: 100%;
-    background-color: var(--cor-pastel-creme);
-    border-radius: 7px;
-    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    list-style: none;
 }
 .item{
-    margin-top: 10px;
-    list-style: none;
+    background-color: var(--cor-pastel-creme);
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px 0px;
     height: 100%;
+    border-radius: 7px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -60,6 +59,7 @@
     width: 60vw;
 }
 .text-item{
+    text-align: center;
     overflow-wrap: break-word;
 }
 .area-check{
